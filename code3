@@ -1,0 +1,30 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+ void india();
+ void usa();
+ void england();
+ 
+ void india(){
+ printf("how are you :\n");
+ england();
+ return;
+ }
+ void england()
+ {
+     printf("i am fine:\n");
+     usa();
+     return;
+ }
+  void usa()
+  {
+      printf("i am not fine ");
+     // gujarat();
+      return;
+  }
+ 
+ 
+ 
+ int main (){
+     india();
+    // return;
+ }
