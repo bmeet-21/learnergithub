@@ -3,7 +3,10 @@
 #include "Arduino.h"
 #define HARDI2C
 #include <Wire.h>
-
+ 
+ 
+ "this is code minor changes"
+ 
 Ntag ntag(Ntag::NTAG_I2C_1K,21,22);
 NtagEepromAdapter ntagAdapter(&ntag);
 //NtagSramAdapter ntagAdapter(&ntag);
